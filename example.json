@@ -22,3 +22,17 @@
         "TransactionInformation": "Barrel Flop"
     }
 ]
+
+
+Decimal, Positive integer,
+
+1) empty,
+
+2) negative interger, string,
+
+3)amount is zero zero zero,
+
+4) special characters,
+
+5) Very huge amount
+

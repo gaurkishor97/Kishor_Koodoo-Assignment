@@ -8,12 +8,12 @@ const roundToTwoDp = (number) => {
     return Math.round(number * 100) / 100
 }
 
-const standardDeviation = R.compose(roundToTwoDp, Math.sqrt, R.mean, array => {
+   const standardDeviation = R.compose(roundToTwoDp, Math.sqrt, R.mean, array => {
     const mean = R.mean(array);
     return R.map(value => Math.pow(value - mean, 2), array)
 })
 
-const analysePayments = (payments) => {
+     const analysePayments = (payments) => {
     const sanitizedPayments = sanitizeAmounts(payments)
 
     return {
